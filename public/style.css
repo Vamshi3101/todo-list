@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Rubik', sans-serif;
+    background-color:#E6E6E6;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    height: 2rem;
+}
+footer p{
+    color: #404040;
+}
+header{
+    background-color: #404040;
+    padding:15px 50px
+}
+header h1{
+    color: #FFFFFF;
+}
