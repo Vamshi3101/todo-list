@@ -8,14 +8,15 @@ html{
     background-color:#E6E6E6;
 }
 footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     text-align: center;
     bottom: 0;
     height: 2rem;
+    z-index: -1;
 }
 footer p{
-    color: #404040;
+    color: #808080;
 }
 header{
     background-color: #404040;
@@ -23,4 +24,65 @@ header{
 }
 header h1{
     color: #FFFFFF;
+}
+form{
+    position: relative;
+    width: 480px;
+    margin: 25px auto 25px auto;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #808080 
+}
+form input,form textarea{
+    width: 100%;
+    border-style: none;
+    font-family: inherit;
+    outline: none;
+    padding: 5px;
+    resize: none;
+    font-size: 1.2rem;
+}
+form button{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    border: none;
+    background-color: #404040;
+    color: #E6E6E6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+}
+.note{
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px #808080;
+    margin: 10px 50px 10px 25px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+.note h1{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.note p{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    white-space: pre-wrap;
+}
+.note button{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #404040;
+    cursor: pointer;
+    outline: none;
+    width: 36px;
+    height: 36px;
+    border: none;
+    font-family: inherit;
 }

@@ -16,8 +16,10 @@ function App(){
     }
     return <div>
     <Header/>
-    <Form addNote = {addItem}/>
-    {notes.map((noteItem,index)=><Note key = {index} id = {index} title = {noteItem.title} content = {noteItem.content} deleteNote={deleteItem}/>)}
+    <div>
+        <Form addNote = {addItem}/>
+        {notes.map((noteItem,index)=><Note key = {index} id = {index} title = {noteItem.title} content = {noteItem.content} deleteNote={deleteItem}/>)}
+    </div>
     <Footer/>
     </div>
 }
