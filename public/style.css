@@ -43,6 +43,9 @@ form input,form textarea{
     resize: none;
     font-size: 1.2rem;
 }
+form #deadline{
+    width: 50%;
+}
 form button{
     position: absolute;
     bottom: -20px;
@@ -85,4 +88,9 @@ form button{
     height: 36px;
     border: none;
     font-family: inherit;
+}
+@media only screen and (width<500px){
+    form{
+        width: 97%;
+    }
 }
